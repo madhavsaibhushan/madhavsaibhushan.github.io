@@ -1,0 +1,193 @@
+<div class="frm-cont1">
+    
+    <div class="row">
+        <div class="col-md-12">
+          <h3 class="makpay-txt"><b>Company Details</b></h3>
+        </div>
+      </div>
+    <div class="mt-5 mb-3 p-4 card">
+            <tabset #staticTabs class="tabs-ds">      
+               <tab heading="" id="first">                
+                <ng-template tabHeading>
+                  <!-- <img *ngIf="!userIcon" class="pointer" src="assets/img/avatars/icon-user-details-hov.png">
+                  <img *ngIf="userIcon" class="pointer" src="assets/img/avatars/icon-user-details.png"> -->
+                  Company Details
+                </ng-template>
+                <div class="row">
+                  <div class="col-md-12">
+                    <form>
+                      <div class="row py-3 my-3">
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                          <label for="Stakeholder">Stakeholder Category</label>
+                          <select id="select1" name="select1" class="form-control">
+                            <option value="0">Select</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                          <label for="Company">Name Of Company</label>
+                          <input type="text" class="form-control" id="company">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="Website">Name Website </label>
+                            <input type="text" class="form-control" id="website">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="Location">Location</label>
+                            <input type="text" class="form-control" id="location">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="Address1">Address 1</label>
+                            <input type="text" class="form-control" id="address1">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="Address2">Address 2</label>
+                            <input type="text" class="form-control" id="address2">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="PIN">PIN Code</label>
+                            <input type="text" class="form-control" id="PIN">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="PAN">PAN</label>
+                            <input type="text" class="form-control" id="pan">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="OfficialID">Official Email Id</label>
+                            <input type="text" class="form-control" id="OfficialID">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="OfficialMobNo">Official Mobile Number</label>
+                            <input type="text" class="form-control" id="OfficialMobNo">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="DeveloperOrg">Developer Organisation URL</label>
+                            <input type="text" class="form-control" id="DeveloperOrg">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="ContactPerson">Contact Person</label>
+                            <input type="text" class="form-control" id="ContactPerson">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="PreUserName">Preferred Username</label>
+                            <input type="text" class="form-control" id="PreUserName">
+                        </div>
+                        <div class="form-group col-sm-6 col-md-4 col-lg-3">
+                            <label for="PCS1x">PCS1x User ID</label>
+                            <input type="text" class="form-control" id="PCS1x">
+                        </div>
+                      </div>
+                      <div class="text-center m-2 float-center-ds">                   
+                        <button type="button" class="btn btn-square btn-primary active">Save As Draft</button>
+                        <button type="button" class="btn btn-square btn-primary active">Submit</button>
+                        <button type="button" class="btn btn-square btn-secondary">Cancel</button>
+                      </div>
+                      <div style="color: red;">(The mandatory fild will be based on the stakeholder type, for ex IE
+                         code will be mandatory for stakeholder type importer exporter, wheras CHA lic no will be
+                          mandatory for stakeholder type CHA)
+                      </div>
+                    </form>         
+                  </div>
+                  
+                </div>
+             </tab>
+              <tab heading="" id="doc">                
+                <ng-template tabHeading>
+                  <!-- <img *ngIf="docIcon" class="pointer" src="assets/img/avatars/icon-documents-h.png">
+                  <img *ngIf="!docIcon" class="pointer" src="assets/img/avatars/icon-documents.png"> -->
+                  Services Provider
+                </ng-template>
+                <div class="row">
+                 <div class="col-md-12">
+                   <div class="row py-3 my-3">
+                    <div class="table-responsive">
+                        <table class="table table-striped tHeading">
+                          <thead >
+                            <tr>
+                              <th width="75" scope="col">Services</th>
+                              <th width="25" scope="col">Add</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td scope="row">Services 1</td>
+                              <td><input type="checkbox" name="" checked></td>
+                              
+                            </tr>
+                            <tr>
+                              <td scope="row">Services 2</td>
+                              <td><input type="checkbox" name="" checked></td>                                                   
+                            </tr>
+                            <tr>
+                              <td scope="row">Services 3</td>
+                              <td><input type="checkbox" name="" checked></td>
+                              
+                            </tr>
+                            <tr>
+                              <td scope="row">Services 4</td>
+                              <td><input type="checkbox" name="" checked></td>
+                              
+                            </tr>
+                            <tr>
+                              <td scope="row">Services 5</td>
+                              <td><input type="checkbox" name="" checked></td>
+                              
+                            </tr>
+                            <tr>
+                              <td scope="row">Services 6</td>
+                              <td><input type="checkbox" name="" checked></td>
+                              
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                   </div>
+                   <div class="text-center m-2 float-center-ds">                   
+                    <button type="button" class="btn btn-square btn-primary active">Save As Draft</button>
+                    <button type="button" class="btn btn-square btn-primary active">Submit</button>
+                    <button type="button" class="btn btn-square btn-secondary">Cancel</button>
+                  </div>
+                   <div style="color: red;">(The mandatory fild will be based on the stakeholder type, for ex IE
+                     code will be mandatory for stakeholder type importer exporter, wheras CHA lic no will be
+                      mandatory for stakeholder type CHA)
+                 </div>
+                </div>
+                </div>
+             </tab>
+             <tab heading="" id="doc">                
+                <ng-template tabHeading>
+                  <!-- <img *ngIf="docIcon" class="pointer" src="assets/img/avatars/icon-documents-h.png">
+                  <img *ngIf="!docIcon" class="pointer" src="assets/img/avatars/icon-documents.png"> -->
+                  Customers Details
+                </ng-template>
+                <div class="row">
+                 <div class="col-md-12">
+                   <div class="row py-3 my-3">
+                    <div class="form-group col-sm-6 col-md-4 col-lg-4">
+                        <label for="CSV">Download Sample CSV</label>
+                        <div>
+                            <!-- <input class="form-control" type="text" id="CSV"> -->
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6 col-md-4 col-lg-4">
+                        <label for="UploadCustomerDtl">Upload Customer Details</label>
+                        <input class="form-control" type="file" id="UploadCustomerDtl" name="myfile">
+                    </div>
+                   </div>
+                   <div>
+                    <label for="UploadCustomerDtl">Terms & Conditions</label>
+                    <div><input type="checkbox" name=""> <span> I Accept All Terms & Conditions</span></div>
+                </div>
+                <div class="text-center m-2 float-center-ds">                   
+                  <button type="button" class="btn btn-square btn-primary active">Save As Draft</button>
+                  <button type="button" class="btn btn-square btn-primary active">Submit</button>
+                  <button type="button" class="btn btn-square btn-secondary">Cancel</button>
+                </div>
+                </div>
+                </div>
+             </tab>
+            </tabset>
+    </div>
+</div>

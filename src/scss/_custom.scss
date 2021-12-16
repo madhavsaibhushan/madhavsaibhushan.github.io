@@ -1,0 +1,20 @@
+// Here you can add other styles
+body{
+    background-color: #f3f8ff;
+}
+.sidebar{
+    background: #174c81;
+}
+.sidebar .nav-link.active{
+    background: #0caadc;
+}
+.sidebar .nav-link.active .nav-icon {
+    color: #ffffff;
+}
+.app-header .navbar-brand{
+    width: 208px;
+}
+.breadcrumb {
+    background: transparent;
+    border-bottom: transparent;
+}

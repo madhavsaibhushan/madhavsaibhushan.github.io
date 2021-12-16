@@ -1,0 +1,38 @@
+.bg-dark-blue{
+    background-color: #174c81 !important;
+}
+.color-black{
+    color: black !important;
+    font-weight: 600;
+    margin:  0 35px;
+}
+.f-18{
+    font-size: 18px;
+}
+.position
+{
+    
+    position: relative;
+    left: 25%;
+
+
+}
+
+@media (min-width:320px) and (max-width:600px) {
+    .ipa-logo{
+        display: none;
+    }
+    .img{
+        margin-top: 15px;
+    }
+}
+.bg-grey-color {
+    background-color: #0071c5 !important;
+}
+.high-contrast {
+    color: #696969;
+}
+.btn-primary {
+    background-color: #0caadc !important;
+    border-color: #0caadc !important;
+}
